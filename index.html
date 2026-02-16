@@ -1,241 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RealEstate</title>
-  <!-- Bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Custom Fonts & Styles -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASTY FOOD</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RealEstate Search</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body>
-  <!-- Bootstrap Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow">
-    <div class="container-fluid">
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="https://cdn-icons-png.flaticon.com/512/619/619034.png" alt="Logo" width="40" height="40" class="me-2">
-        RealEstate
+   <nav class="navbar navbar-expand-lg navbar-red bg-white fixed-top ">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://www.creativefabrica.com/wp-content/uploads/2021/10/25/Tasty-Food-Graphics-19217789-1.jpg"
+          class="navbar-image"
+          alt=""
+        />
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#buy">Buy</a></li>
-          <li class="nav-item"><a class="nav-link" href="#rent">Rent</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-        <form class="d-flex me-3" role="search" onsubmit="event.preventDefault(); findNearbyProperties();">
-          <input id="searchInput" class="form-control me-2 bg-dark text-white border-secondary" type="search" placeholder="Search by location" aria-label="Search">
-          <button class="btn btn-outline-primary" type="submit">🔍</button>
-        </form>
-        <a href="#" class="text-white fs-5 me-3">👤</a>
-        <a href="#" class="text-white fs-5">🛒</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" href="index.html">
+            HOME <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-link" href="section1.html">MENU</a>
+          <a class="nav-link" href="section2.html">DESSSERTS</a>
+          <a class="nav-link" href="about us.html">ABOUT US</a>
+        </div>
       </div>
+    </nav>
+
+  <div class="header">
+  <h1>Tasty Food</h1>
+  <p>Your favorite food delivered hot & fresh</p>
+</div>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://tb-static.uber.com/prod/image-proc/processed_images/4f0e6d1d9974aad502650d60940c1fe6/16bb0a3ab8ea98cfe8906135767f7bf4.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://wallpapers.com/images/featured/delicious-food-pictures-i5wjpvjqrk3qroy0.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.freepik.com/premium-photo/beautiful-food-background-photo-very-nice-photo-se-different-food-photo-different-colorful-scenery_1028782-29642.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </nav>
-
-  <!-- Results Section -->
-  <div id="propertyResults" class="container mt-5 pt-5 text-white"></div>
-
-  <!-- Bootstrap JS and Dependencies -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Link to external JS file -->
-  <script src="script.js"></script>
-</body>
+  </body>
 </html>
-
-
-  <!-- Hero Section -->
-  <header -- Hero Section -->
-    <header id="home" class="vh-100 d-flex align-items-center justify-content-center position-relative text-center"
-      style="background-image: url('https://www.trulyclassy.com/wp-content/uploads/2021/05/Villa-Amaravida-Phuket.jpg'); background-size: cover; background-position: center;">
-      <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-75"></div>
-      <div class="position-relative z-2 text-white px-3">
-        <h1 class="display-3 fw-bold mb-4">Find Your Dream Home</h1>
-        <p class="lead mb-4">Search apartments, flats, houses, and more in your ideal location.</p>
-        <a href="#buy" class="btn btn-primary btn-lg">Explore Properties</a>
-      </div>
-    </header>
-
-  </header>
-
-  <!-- Buy Section -->
-  <!-- Buy Section -->
-<section id="buy" class="section bg-dark text-white py-5">
-  <div class="container text-center">
-    <h2 class="text-primary">Buy a Property</h2>
-    <p>Browse our premium listings of properties available for purchase. We offer luxury villas, modern apartments, and family-friendly homes across top locations.</p>
-    
-    <div class="row g-4 mt-4">
-      <!-- Villa Card -->
-      <div class="col-md-4">
-        <div class="card bg-secondary text-white h-100">
-          <img src="https://www.sierrablancavilla.com/img/slides/sierra-blanca-villa-r2651456.jpg" class="card-img-top" height="200" alt="Villa">
-          <div class="card-body">
-            <h5 class="card-title">Luxury Villa</h5>
-            <p class="card-text">Experience opulence and comfort in our premium villas with private pools and scenic views.</p>
-            <a href="#" class="btn btn-outline-light">View Villa</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Luxury Apartment Card -->
-      <div class="col-md-4">
-        <div class="card bg-secondary text-white h-100">
-          <img src="https://th.bing.com/th/id/OIP.u8u-1yyEK9xIZrsesPpbDwHaE8?rs=1&pid=ImgDetMain" class="card-img-top" height="200" alt="Luxury">
-          <div class="card-body">
-            <h5 class="card-title">Luxury Apartment</h5>
-            <p class="card-text">Modern apartments in high-rise buildings with top amenities and city views.</p>
-            <a href="#" class="btn btn-outline-light">View Luxury</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Ordinary Home Card -->
-      <div class="col-md-4">
-        <div class="card bg-secondary text-white h-100">
-          <img src="https://th.bing.com/th/id/R.e960e2c9ed4e9a32485999bdbffa375d?rik=MXYhZNKsGuuNlQ&riu=http%3a%2f%2fwww.marbella-house.com%2fwp-content%2fuploads%2f2022%2f01%2f322-1.jpg&ehk=bFK1Ckn%2bJ9Oiy%2flL7DDSh0t%2bFCQeDZkhRKjks9K%2bLvw%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" height="200" alt="Ordinary">
-          <div class="card-body">
-            <h5 class="card-title">Ordinary Family Home</h5>
-            <p class="card-text">Affordable and cozy family homes located in peaceful residential neighborhoods.</p>
-            <a href="#" class="btn btn-outline-light">View Home</a>
-          </div>
-        </div>
-      </div>
+<body>
+    <div class="tasty-food-bg-container">
+        <h1 class="tasty-food-heading">Welcome to Tasty Food</h1>
+        <div class="tasty-food-card-container ">
+            <div class="tasty-food-card-heading">Delicious Recipes
+            <p class="tasty-food-card-description">Explore a variety of mouth-watering recipes that are easy to make and delightful to taste. From appetizers to desserts, we have something for every food lover!</p>
+            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/4f0e6d1d9974aad502650d60940c1fe6/16bb0a3ab8ea98cfe8906135767f7bf4.jpeg" alt="tasty food" class="tasty-food-image"/>
+            <img src="https://wallpapers.com/images/featured/delicious-food-pictures-i5wjpvjqrk3qroy0.jpg" alt="tasty food" class="tasty-food-image"/>
+            <img src="https://img.freepik.com/premium-photo/beautiful-food-background-photo-very-nice-photo-se-different-food-photo-different-colorful-scenery_1028782-29642.jpg" alt="tasty food" class="tasty-food-image"/>
+           <a href="section1.html"><button class="btn-primary-1" onclick="display('section1')">order here</button>
+           </a>
+         </div>
     </div>
-  </div>
-</section>
-
-  <!-- Rent Section -->
-<section id="rent" class="section bg-black text-white py-5">
-  <div class="container text-center">
-    <h2 class="text-primary">Rent a Home</h2>
-    <p>Looking for rental homes? Choose from a variety of affordable and high-end rental options suitable for
-      students, professionals, and families.</p>
-
-    <div class="row g-4 mt-4">
-      <!-- Student Rental Card -->
-      <div class="col-md-4">
-        <div class="card bg-secondary text-white h-100">
-          <img src="https://pic.le-cdn.com/thumbs/1024x768/04/1/properties/Property-bc5d0000000007b00001649d24f5-128998844.jpg" class="card-img-top" alt="Student Rental" height="200">
-          <div class="card-body">
-            <h5 class="card-title">Student Housing</h5>
-            <p class="card-text">Affordable and comfortable homes near universities, with shared amenities and study-friendly environments.</p>
-            <a href="#" class="btn btn-outline-light">View Options</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Professional Rental Card -->
-      <div class="col-md-4">
-        <div class="card bg-secondary text-white h-100">
-          <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Professional Rental" height="200">
-          <div class="card-body">
-            <h5 class="card-title">Professional Suites</h5>
-            <p class="card-text">Stylish and centrally located apartments perfect for working professionals, close to business hubs.</p>
-            <a href="#" class="btn btn-outline-light">View Listings</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Family Rental Card -->
-      <div class="col-md-4">
-        <div class="card bg-secondary text-white h-100">
-          <img src="https://th.bing.com/th/id/OIP.MPFaqSXsMLmNrBaZOqvltwHaE8?rs=1&pid=ImgDetMain" class="card-img-top" alt="Family Rental" height="200">
-          <div class="card-body">
-            <h5 class="card-title">Family Homes</h5>
-            <p class="card-text">Spacious homes in quiet neighborhoods, ideal for families seeking comfort, safety, and schools nearby.</p>
-            <a href="#" class="btn btn-outline-light">Explore Homes</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- Contact Section -->
-<section id="contact" class="section bg-dark">
-    <div class="container text-center">
-        <h2 class="text-primary">Get in Touch</h2>
-        <p>Have questions or need help? Contact our agents 24/7 via phone, email, or live chat. We're here to make your
-            real estate journey smooth and successful.</p>
-
-        <div class="row mt-4">
-            <!-- Phone Card -->
-            <div class="col-md-4">
-                <div class="card bg-light">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">Call Us</h5>
-                        <p class="card-text">Reach us anytime at <strong>9014432900</strong> for expert assistance.</p>
-                        <a href="tel:+18001234567" class="btn btn-primary">Call Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Email Card -->
-            <div class="col-md-4">
-                <div class="card bg-light">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">Email Us</h5>
-                        <p class="card-text">Drop us an email at <strong>vinodkumar.odela3@gmail.com</strong> and we'll get back to you ASAP.</p>
-                        <a href="mailto:support@example.com" class="btn btn-primary">Send Email</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Live Chat Card -->
-            <div class="col-md-4">
-                <div class="card bg-light">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">Live Chat</h5>
-                        <p class="card-text">Chat with our agents instantly for quick solutions and advice.</p>
-                        <a href="#" class="btn btn-primary">Start Chat</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-    </div>
-</section>
-
-
-  <!-- Footer -->
-  <footer class="bg-black text-white py-4 mt-5 border-top border-secondary">
-    <div class="container d-flex justify-content-between align-items-center">
-      <p class="mb-0">&copy; 2025 RealEstate. All rights reserved.</p>
-      <div>
-        <a href="#" class="text-white text-decoration-none me-3">Privacy</a>
-        <a href="#" class="text-white text-decoration-none me-3">Terms</a>
-        <a href="#" class="text-white text-decoration-none">Help</a>
-      </div>
-    </div>
-  </footer>
-
-</body>
-
-</html>
-
-
+     </body>
+    </html>
